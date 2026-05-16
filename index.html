@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vincent Peiling Li — Psycholinguistics</title>
+<meta name="description" content="Vincent Peiling Li — Psychology undergraduate at the University of Edinburgh studying non-literal language, sarcasm, and emoji in psycholinguistic eye-tracking research." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&family=Italianno&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- SVG oil-paint filter -->
+<svg class="hero-paint-filter" xmlns="http://www.w3.org/2000/svg">
+  <filter id="oilpaint">
+    <feTurbulence type="turbulence" baseFrequency="0.015 0.02" numOctaves="3" seed="2" result="turb"></feTurbulence>
+    <feDisplacementMap in="SourceGraphic" in2="turb" scale="14" xChannelSelector="R" yChannelSelector="G" result="displaced"></feDisplacementMap>
+    <feGaussianBlur in="displaced" stdDeviation="1.2" result="softened"></feGaussianBlur>
+    <feComposite in="softened" in2="SourceGraphic" operator="atop"></feComposite>
+  </filter>
+</svg>
+
+<header class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-strokes"></div>
+  <div class="hero-vignette"></div>
+
+  <div class="hero-nav">
+    <div class="mark">V · L</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="research.html">Research</a>
+      <a href="contact.html">Contact</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme" title="Toggle light/dark">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+      </button>
+    </nav>
+  </div>
+
+  <div class="hero-center" style="font-weight: 200">
+    <h1 class="signature" style="font-family: Italianno; font-size: 80px; line-height: 1;">Vincent P. Li</h1>
+    <p style="font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: rgba(220,226,234,.7); margin: 0 0 18px; font-family: 'Inter', sans-serif; text-shadow: 0 1px 8px rgba(10,8,20,.6), 0 0 16px rgba(10,8,20,.35);">Psycholinguistic student researcher at the University of Edinburgh</p>
+    <a class="explore" href="#about">Explore <span class="arr">↓</span></a>
+  </div>
+
+  <div class="hero-foot">
+
+    <span>Claude Monet · <em>Sunset on the Seine at Lavacourt, Winter Effect</em> · 1880</span>
+  </div>
+</header>
+
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <a class="mark" href="index.html">Vincent Li</a>
+    <nav>
+      <a href="index.html" class="active">Profile</a>
+      <a href="research.html">Research &amp; Experience</a>
+      <a href="contact.html">Contact</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme" title="Toggle light/dark">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+      </button>
+    </nav>
+  </div>
+</div>
+
+<main>
+
+<!-- ABOUT -->
+<section class="block" id="about">
+  <div class="wrap">
+    <div class="sec-grid">
+      <div>
+        <div class="sec-label">01 — About</div>
+        <div class="about-aside" style="margin-top: 58px;">
+          <div class="portrait">
+            <img src="images/portrait.jpg" alt="Vincent Peiling Li" />
+          </div>
+          <div class="portrait-cap">
+            <span>Vincent Peiling Li</span>
+          </div>
+          <div class="portrait-links">
+            <a class="iconlink" href="cv/Vincent-Li-CV.pdf" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              CV
+            </a>
+            <a class="iconlink" href="contact.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Contact
+            </a>
+            <a class="iconlink" href="https://orcid.org/0009-0000-4341-7090" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9 9h1v7H9z"></path><path d="M13 9h1.5c1.4 0 2.5 1.1 2.5 2.5v0c0 1.4-1.1 2.5-2.5 2.5H13V9z"></path></svg>
+              ORCID
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="sec-title">Self-<em>introduction.</em></h2>
+        <div class="about-row">
+          <p class="lead">
+            Fourth-year Psychology student at the University of Edinburgh, specialising in
+            psycholinguistics and experimental research methods. My research explores how
+            people comprehend non-literal language (particularly sarcasm) across spoken
+            and written communication.
+          </p>
+          <p class="muted">
+            Beyond the lab I am active in student engagement and care about open science
+            and science communication, including writing psychology articles for general audiences.
+          </p>
+          <p class="muted">
+            Currently preparing to pursue graduate study in psycholinguistics, with
+            interests spanning experimental pragmatics, compositional semantics, and
+            cognitive approaches to language comprehension.
+          </p>
+        </div>
+
+        <!-- Education & Experience timeline -->
+        <div class="edu-list">
+          <div class="edu-head">Education</div>
+          <div class="edu-row">
+            <div class="yr">2022 — 2026</div>
+            <div class="what">
+              <span class="school">University of Edinburgh</span>
+              <span class="degree">B.Sc. Psychology <span class="hon">(Honours)</span> · with Distinction</span>
+              <span class="degree" style="font-size:.85em; opacity:.7;">Overall: 75 · Dissertation: 85</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pills">
+          <span class="pill">Sarcasm &amp; irony</span>
+          <span class="pill">Emoji &amp; non-literal cues</span>
+          <span class="pill">Experimental pragmatics</span>
+          <span class="pill">Compositional semantics</span>
+          <span class="pill">Bilingual processing</span>
+          <span class="pill">Eye-tracking</span>
+          <span class="pill">Self-paced reading</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRENT RESEARCH (Motivation vs Personality removed) -->
+<section class="block" id="research">
+  <div class="wrap">
+    <div class="sec-grid">
+      <div class="sec-label">02 — Current Research</div>
+      <div>
+        <h2 class="sec-title">Ongoing <em>projects.</em></h2>
+        <div class="rows">
+          <article class="row">
+            <div class="yr">2025 → 2026</div>
+            <div>
+              <h3>How capitalisation affects sarcasm comprehension in online communication</h3>
+              <div class="meta">Dissertation · Supervised by Prof. Martin Corley</div>
+              <p>Independent dissertation on whether typographic capitalisation acts as a sarcasm-specific cue or a more general pragmatic salience marker. 100 participants; analysis suggests capitalisation functions as a pragmatic salience marker rather than a sarcasm-specific cue. Grade: 85. Dissertation submitted; preparing the work for conference / journal write-up.</p>
+            </div>
+            <div class="stat draft">Writing up</div>
+          </article>
+
+          <article class="row">
+            <div class="yr">2025 →</div>
+            <div>
+              <h3>Parafoveal-on-foveal effects of emoji in sarcasm comprehension during Chinese reading</h3>
+              <div class="meta">Carnegie Trust Vacation Scholarship · Dr. Patrick Sturt</div>
+              <p>Pre-registered EyeLink 1000 study examining how emoji previewed in parafoveal vision shape sarcasm interpretation in Chinese text. 66 adult participants; analysis complete and currently writing up.</p>
+            </div>
+            <div class="stat draft">Writing up</div>
+          </article>
+
+          <article class="row">
+            <div class="yr">2025 →</div>
+            <div>
+              <h3>How conversational context shifts language prediction</h3>
+              <div class="meta">With Dr Tianyue Wang, Dr Wei Li · Supervised by Prof. Martin Corley and Prof. Hannah Rhode</div>
+              <p>Visual-world eye-tracking testing whether explicitly communicative settings pull predictions away from typicality and toward informativity. OpenSesame; data collection ongoing.</p>
+            </div>
+            <div class="stat live">Collecting</div>
+          </article>
+
+
+        </div>
+
+        <div style="margin-top: 20px;">
+          <a class="btn ghost" href="research.html">See past research &amp; experience →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TALKS & WRITING -->
+<section class="block" id="publications">
+  <div class="wrap">
+    <div class="sec-grid">
+      <div class="sec-label">03 — Talks &amp; Writing</div>
+      <div>
+        <h2 class="sec-title">Posters, talks &amp; <em>writing.</em></h2>
+        <div>
+          <div class="pub-row">
+            <div class="yr">2025</div>
+            <div class="cite">Li, V. <em>Motivation vs personality: what drives belonging for international students?</em> Talk presented at <span class="venue">The EAP Student: Identity, Community, and Belonging Conference</span>, Edinburgh, UK.</div>
+            <div class="kind">Talk</div>
+          </div>
+          <div class="pub-row">
+            <div class="yr">2025</div>
+            <div class="cite">Li, V. <em>Social media's double-edged sword on imposter syndrome: platforms as both triggers and tools for resilience.</em> <span class="venue">Edinburgh University Psychology Magazine</span>.</div>
+            <div class="kind">Article</div>
+          </div>
+          <div class="pub-row">
+            <div class="yr">2023</div>
+            <div class="cite">Li, V. <em>Real-life café vs. virtual café noise effects on creative work performance.</em> Poster presented at the <span class="venue">Edinburgh Scientific Research Association Annual Conference</span>, Edinburgh, UK.</div>
+            <div class="kind">Poster</div>
+          </div>
+          <div class="pub-row">
+            <div class="yr">In prep</div>
+            <div class="cite" style="color: var(--ink-2)">Manuscript on <em>parafoveal-on-foveal effects of emoji in sarcasm comprehension during Chinese reading</em>  (preparing for conference / journal submission)</div>
+            <div class="kind">In prep</div>
+          </div>
+          <div class="pub-row">
+            <div class="yr">In prep</div>
+            <div class="cite" style="color: var(--ink-2)">Manuscript on <em>capitalisation and sarcasm comprehension in online communication</em> (preparing for conference / journal submission)</div>
+            <div class="kind">In prep</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDING & RECOGNITION -->
+<section class="block" id="awards">
+  <div class="wrap">
+    <div class="sec-grid">
+      <div class="sec-label">04 — Funding &amp; Recognition</div>
+      <div>
+        <h2 class="sec-title">Grants &amp; <em>recognition.</em></h2>
+
+        <div class="funding">
+          <div class="split-head">
+            <h3>Funding &amp; <em>scholarships</em></h3>
+            <div class="count">
+</div>
+          </div>
+          <div class="award">
+            <div class="yr">2025</div>
+            <div>
+              <h4>Carnegie Trust Vacation Scholarship</h4>
+              <div class="meta">Summer research funding for the emoji-in-sarcasm eye-tracking project, supervised by Dr. Patrick Sturt.</div>
+            </div>
+            <div class="amount">£5,292</div>
+          </div>
+          <div class="award">
+            <div class="yr">2022 — 23</div>
+            <div>
+              <h4>Edinburgh Scientific Research Association Grant</h4>
+              <div class="meta">Independent project on noise environment and creative-work performance.</div>
+            </div>
+            <div class="amount">£100</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="split-head">
+            <h3>Awards &amp; <em>recognition</em></h3>
+            <div class="count">Honours · service</div>
+          </div>
+          <div class="recognition">
+            <div class="item">
+              <h4>Edinburgh Award</h4>
+              <div class="meta">2024 &amp; 2026 · Leadership in Student Opportunities</div>
+              <p>Awarded twice as Psychology Programme Representative, recognising sustained contribution to student representation and curriculum work.</p>
+            </div>
+            <div class="item">
+              <h4>Saltire Award</h4>
+              <div class="meta">2024 &amp; 2026 · Volunteering</div>
+              <p>Awarded twice for volunteer service as Psychology Programme Representative.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Single "next page" nav → Research -->
+<div class="wrap">
+  <div class="pagenav single">
+    <a class="next" href="research.html">
+      <div class="k">Continue →</div>
+      <div class="v">Past <em>research</em> &amp; experience</div>
+    </a>
+  </div>
+</div>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; width:100%;">
+    <div>© <span id="year"></span> Vincent Peiling Li</div>
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="mailto:s2189034@ed.ac.uk">Email</a>
+      <a href="https://orcid.org/0009-0000-4341-7090" target="_blank" rel="noopener">ORCID</a>
+      <a href="https://www.linkedin.com/in/vincent-li-6a4333217/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="cv/Vincent-Li-CV.pdf" download>CV</a>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
