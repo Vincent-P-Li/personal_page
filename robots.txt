@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vincent-p-li.github.io/personal_page/sitemap.xml
