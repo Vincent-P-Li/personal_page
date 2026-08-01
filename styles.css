@@ -461,12 +461,17 @@ section.block{
 
 .recognition{ display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--rule-soft); }
 @media (max-width: 760px){ .recognition{ grid-template-columns: 1fr; } }
-.recognition .item{ padding: 14px 0; border-bottom: 1px solid var(--rule-soft); }
-.recognition .item:nth-child(odd){ padding-right: 28px; border-right: 1px solid var(--rule-soft); }
-.recognition .item:nth-child(even){ padding-left: 28px; }
+.recognition{ display: flex; flex-direction: column; }
+.recognition .item{ padding: 14px 0; }
+.recognition .item.wide{ border-bottom: 1px solid var(--rule-soft); }
+.recognition .pair{ display: grid; grid-template-columns: 1fr 1fr; }
+.recognition .pair .item{ border-bottom: 1px solid var(--rule-soft); }
+.recognition .pair .item:first-child{ padding-right: 28px; border-right: 1px solid var(--rule-soft); }
+.recognition .pair .item:last-child{ padding-left: 28px; }
 @media (max-width: 760px){
-  .recognition .item:nth-child(odd){ padding-right: 0; border-right: 0; }
-  .recognition .item:nth-child(even){ padding-left: 0; }
+  .recognition .pair{ grid-template-columns: 1fr; }
+  .recognition .pair .item:first-child{ padding-right: 0; border-right: 0; }
+  .recognition .pair .item:last-child{ padding-left: 0; }
 }
 .recognition h4{ font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: 17px; line-height: 1.3; margin: 0 0 3px; color: var(--ink); }
 .recognition .meta{ font-family: 'JetBrains Mono', monospace; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 4px; }
