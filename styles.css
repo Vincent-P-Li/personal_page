@@ -505,6 +505,8 @@ footer.foot .foot-in{
 }
 footer.foot a{ color: var(--ink-3); }
 footer.foot a:hover{ color: var(--accent); }
+.abstract-link{ color: var(--accent); font-style: italic; text-decoration: underline; text-underline-offset: 2px; }
+.abstract-link:hover{ color: var(--accent-2); }
 footer.foot .links{ display: flex; gap: 14px; flex-wrap: wrap; }
 
 /* ----------- RESOURCES (interests page) ----------- */
