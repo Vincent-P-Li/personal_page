@@ -38,6 +38,13 @@
   --shadow:    0 1px 3px rgba(0,0,0,.3);
 }
 
+/* Dark-mode guard: text given a fixed black or grey colour in the editor
+   follows the theme instead of staying dark */
+:root[data-theme="dark"] main [style*="#000000"],
+:root[data-theme="dark"] main [style*="rgb(0, 0, 0)"]{ color: var(--ink) !important; }
+:root[data-theme="dark"] main [style*="#62637a" i],
+:root[data-theme="dark"] main [style*="rgb(98, 99, 122)"]{ color: var(--ink-2) !important; }
+
 *{ box-sizing: border-box; }
 html,body{ margin:0; padding:0; }
 body{
